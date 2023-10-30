@@ -1,0 +1,43 @@
+/* MENU */
+header i, header nav {
+  padding: 1rem;
+  position: fixed;
+  z-index: 20;
+}
+
+header nav {
+  top: 4rem
+}
+
+/*burger icon*/
+header i div {
+  width: 50px;
+  height: 5px;
+  margin: .5rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+  transition: all .15s ease-in-out;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+header i:hover div {
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+/*menu*/
+header nav ul li {
+  width: 9.375rem;
+  text-align: end;
+  background-color: #ffffff;
+  padding: .5rem;
+  margin: .25rem .5rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transform: translateX(-500px);
+  color:rgb(0, 0, 0)
+}
+
+header nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}

@@ -1,0 +1,30 @@
+@media screen and (max-width: 950px) {
+  .card-standard {
+    max-width: 100%;
+  }
+  .tickets_container {
+    justify-content: center;
+  }  
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding-top: 5rem;
+    align-items: flex-end;
+  }
+  .hero section:first-child {
+    text-align: end;
+  }
+  h1 {
+    font-size: 3.5rem;
+    
+  }
+}
+
+@media screen and (max-width: 460px) {
+
+  h1 {
+    font-size: 2rem;
+    
+  }
+}

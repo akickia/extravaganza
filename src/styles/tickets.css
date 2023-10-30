@@ -1,0 +1,142 @@
+.page-tickets {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 2rem 1rem;
+}
+
+.page-intro {
+  font-size: 1.7rem;
+}
+
+.tickets_info {
+  text-align: start;
+}
+
+.tickets_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tickets_card {
+  max-width: 450px;
+  width: 100%;
+  border: 1px dotted #ffff00;
+  padding: 1rem 2rem;
+  margin: .5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.tickets_card .buy-container {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.svg-container {
+  position: relative;
+  width: 120px;
+  height: 70px;
+  top: -15px
+}
+
+.tickets_card .ticket-svg {
+  transform: rotateZ(-30deg);
+  position: absolute;
+  top: 0;
+  z-index: 1
+}
+
+.tickets_card .ticket-svg:nth-child(2) {
+  transform: translateX(-30px) rotateZ(-70deg);
+}
+
+.tickets_card button {
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.add-info {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 2rem
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(6px);
+  z-index: 12;
+}
+
+.inner-overlay {
+padding: 3rem;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 5px;
+
+}
+
+.inner-overlay div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.inner-overlay div > * {
+  margin: .25rem;
+  border: 1px solid gray;
+  padding: .75rem 2rem;
+  font-size: 1.25rem;
+}
+
+.inner-overlay button {
+  padding: .75rem 2rem;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #000000
+}
+
+.inner-overlay button:hover {
+animation: glimpse .5s ease-in-out infinite
+}
+
+@keyframes glimpse {
+  0% {
+    background-color: #ffffff;
+    transform: scale(1);
+  } 
+  33%{
+    background: linear-gradient(-50deg, rgba(255,255,255,0.46262254901960786) 46%, rgba(255,255,0,1) 85%);
+  }
+  50% {
+    background: linear-gradient(-50deg, rgba(255,255,255,0.46262254901960786) 32%, rgba(255,255,0,1) 70%);
+  }
+  66% {
+    background: linear-gradient(-50deg, rgba(255,255,255,0.46262254901960786) 5%, rgba(255,255,0,1) 28%);
+    transform: scale(1.05);
+  }
+
+  100% {
+    background-color: rgba(255,255,0,1);
+    transform: scale(1);
+  }
+}

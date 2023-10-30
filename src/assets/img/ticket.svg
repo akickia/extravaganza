@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100px"
+   height="50px"
+   viewBox="0 0 100.10012 50.393048"
+   version="1.1"
+   id="svg5952"
+   sodipodi:docname="raffleTicket.svg"
+   inkscape:export-filename="C:\Users\Shay\Pictures\(c) Copyright\Shay Holmes\Tracker Templates\raffleticket.png"
+   inkscape:export-xdpi="95.040001"
+   inkscape:export-ydpi="95.040001"
+   inkscape:version="0.92.1 r15371">
+  <title
+     id="title18">Raffle Ticket Outline</title>
+  <defs
+     id="defs5946" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="146.99081"
+     inkscape:cy="96.624426"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1825"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     units="in"
+     showborder="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="-0.3" />
+  <metadata
+     id="metadata5949">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Raffle Ticket Outline</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:date>2018 May 15</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Shay Holmes</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>raffle</rdf:li>
+            <rdf:li>fair</rdf:li>
+            <rdf:li>ticket</rdf:li>
+            <rdf:li>black</rdf:li>
+            <rdf:li>white</rdf:li>
+            <rdf:li>outline</rdf:li>
+            <rdf:li></rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20.119656,-76.842691)">
+    <path
+       style="fill:gray;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 20.252718,87.179988 0.221416,30.042112 c 5.916515,0.85974 8.808127,4.31226 9.435494,9.70555 l 80.091452,0.17556 c 1.07405,-5.38052 3.9496,-9.22976 10.05387,-10.33459 l 0.0324,-29.680344 c -7.39331,-0.832792 -8.9969,-5.228485 -9.93761,-10.032105 L 29.766497,76.97511 c -0.314659,6.709269 -4.454117,8.989823 -9.513779,10.204878 z"
+       id="path5954"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 30.1436,87.128719 30.04911,116.89434"
+       id="path6506"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 109.89658,86.93973 0.0945,30.1436"
+       id="path6508"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
