@@ -7,24 +7,74 @@
   }  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .hero {
     padding-top: 5rem;
     align-items: flex-end;
-  }
-  .hero section:first-child {
     text-align: end;
+    min-height: 70vh;
   }
+  .tivoli {
+    transform: translateY(-100px);
+  }
+  .tivoli img {
+    max-width: 300px;
+  }  
+  
   h1 {
     font-size: 3.5rem;
-    
   }
+  .page-container {
+    padding: 1rem
+  }
+  video {
+    margin: -2.5rem -1rem
+  }
+
+
+
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 450px) {
 
   h1 {
     font-size: 2rem;
-    
   }
+
+  .tivoli {
+    transform: translateY(-200px);
+  }
+  .tivoli img {
+    max-width: 100px;
+  }
+
+  .figure {
+    max-width: 10rem;
+  }
+
+  .card {
+    margin: 1rem 0
+  }
+
+
+
+
+  footer {
+    font-size: .8rem;
+  }
+
+  .page-intro {
+    font-size: 1.2rem;
+  }
+
+  .inner-overlay div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inner-overlay {
+    text-align: center;
+  }
+
+
 }

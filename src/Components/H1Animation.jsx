@@ -12,7 +12,7 @@ export default function H1Animation({text}) {
     }
   }
   return (
-    <motion.h1 
+    <motion.h1 className="page-content"
           initial="hidden" 
           animate="visible" 
           transition={{staggerChildren: .05, easings: "ease"}}>

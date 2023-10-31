@@ -14,11 +14,18 @@ body {
 
 h1 {
   font-size: 5rem;
-  color:rgba(255, 255, 255, 0.87)
+  color:rgba(255, 255, 255, 0.87);
+  z-index: 2;
 }
 
 img {
   max-width: 100%;
+}
+
+video {
+  max-width: 112%;
+  margin: -7rem -4rem;
+  opacity: .5;
 }
 
 ul {
@@ -29,116 +36,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-
-
-/* Hero */
-.hero {
-  padding: 2rem;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.3);
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
-.tivoli {
-  position: absolute;
-  bottom: 0;
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.tivoli img {
-  max-width: 500px;
-  width: 100%;
-  transform-origin: bottom;
-}
-
-.tivoli .swing {
-  opacity: .5;
-}
-
-.tivoli .wheel {
-  opacity: .4;
-}
-
-.figure {
-  position: absolute;
-  left: 5%;
-  bottom: 0;
-  max-width: 12rem;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-}
-
-
-.bubble {
-  width: 300px;
-  height: 130px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.95);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  font-family: 'Pacifico', cursive;
-  font-size: 1.5rem;
-  opacity: 0;
-  box-shadow: 1px 1px 30px rgb(0, 0, 0);
-}
-
-.bubble:nth-child(2) {
-  width: 50px;
-  height: 30px;
-  transform: translateX(150px) translateY(15px);
-}
-.bubble:nth-child(3) {
-  width: 30px;
-  height: 20px;
-  transform: translateX(130px) translateY(15px);
-}
-
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
-}
-
-/* Cards */
-.card {
-  max-width: 100%;
-  width: 100%;
-  border: 1px dotted #ffff00;
-  background-color: rgb(154, 153, 154);
-  color: rgba(0, 0, 0, 0.95);
-  padding: 1rem 2rem;
-  margin: 2rem 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-  z-index: 2;
-}
-
-.card * {
-  margin: 1rem
-}
-
 
 button {
   font-weight: 700;
@@ -159,12 +56,6 @@ button:active {
   transform: scaleX(1.1) scaleY(0.95);
 }
 
-.card-standard {
-  max-width: 45%;
-  width: 100%;
-}
-
-/* Footer */
 footer {
   padding: 1rem;
   min-height: 11rem;
@@ -176,66 +67,62 @@ footer {
   color: #0000006a
 }
 
-/*PAGES*/
-.page {
-  margin-top: 5rem;
-  padding: 2rem;
-  max-width: 1000px;
-  margin: auto;
+/*General for content*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page-container {
   min-height: 100vh;
   text-align: end;
   color: #000000;
-}
-
-.page * {
-  padding: .5rem 0
-}
-
-.page-video {
-  max-width: unset;
-  padding: 2rem 0 
-}
-
-.page-video h1, .page-video .page-content {
-  max-width: 1000px;
+  max-width: 1200px;
   width: 100%;
   margin: 2rem auto;
   padding: 2rem
 }
 
-.page-content.card {
+.page-content {
   position: relative;
-
 }
 
+.page-intro {
+  font-size: 1.7rem;
+}
+
+/* Cards */
+.card {
+  max-width: 100%;
+  width: 100%;
+  border: 1px dotted #ffff00;
+  background-color: rgb(154, 153, 154);
+  color: rgba(0, 0, 0, 0.95);
+  padding: 1rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.card * {
+  margin: .75rem
+}
+
+.card-standard {
+  max-width: 45%;
+}
+
+
+/*Align styling*/
 .middle {
   text-align: center;
   color: #ffff00ac
-}
-video {
-  max-width: 100%;
-}
-
-.video {
-  margin-top: -7rem;
-  margin-bottom: -7rem;
-}
-.video {
-  opacity: .5;
-}
-
-.video-lmt {
-  max-width: 100px;
-  margin: 0 1rem
-}
-
-.video-noMrg {
-  margin-top: 0;
-}
-
-.page-content-flex {
-  display: flex;
-  align-items: center;
 }
 
 .start {
@@ -247,6 +134,10 @@ video {
   align-items: end;
 }
 
+/*Specials*/
+.video-noMrg {
+  margin-top: 0;
+}
 .img-opac {
   animation: opacityInOut 5s ease-in-out infinite alternate;
   width: 100%;

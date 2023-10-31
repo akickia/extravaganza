@@ -4,13 +4,11 @@ import { AnimatePresence, motion } from "framer-motion"
 import { useNavigate } from "react-router-dom"
 
 export default function TicketsCard({name, info, price, desc}) {
-
-  const navigate = useNavigate()
-const [nrOfTickets, setNrOfTickets] = useState(1)
-const [showOverlay, setShowOverlay] = useState(false)
-const [showConfirmation, setShowConfirmation] = useState(false)
-const [sum, setSum] = useState(0)
-const overlayEl = <section className="overlay">
+  const [nrOfTickets, setNrOfTickets] = useState(1)
+  const [showOverlay, setShowOverlay] = useState(false)
+  const [showConfirmation, setShowConfirmation] = useState(false)
+  const [sum, setSum] = useState(0)
+  const overlayEl = <section className="overlay">
 
     <motion.section initial={{opacity: 0}} animate={{opacity: 1}}  exit={{opacity: 0}} className="inner-overlay">
     <h2>Hur många {name} vill du köpa?</h2>
@@ -49,7 +47,6 @@ function confirmationClose() {
   setShowConfirmation(false)
   setShowOverlay(false)
   setNrOfTickets(1)
-  navigate("/")
 }
 
 
@@ -63,7 +60,7 @@ useEffect(() => {
     <>
       <AnimatePresence> {showOverlay && overlayEl} {showConfirmation && confirmationEl}</AnimatePresence>
    
-    <section className="tickets_card">
+    <section className="card card-standard end">
       <h2>{name}</h2>
       <h4>{info}</h4>
       <p>{desc}</p>

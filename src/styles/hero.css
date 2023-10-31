@@ -1,0 +1,74 @@
+/* Hero */
+.hero {
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.tivoli {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.tivoli img {
+  max-width: 500px;
+  width: 100%;
+  transform-origin: bottom;
+}
+
+.tivoli .swing {
+  opacity: .5;
+}
+
+.tivoli .wheel {
+  opacity: .4;
+}
+
+.figure {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  max-width: 12rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.bubble {
+  width: 280px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  opacity: 0;
+  box-shadow: 1px 1px 30px rgb(0, 0, 0);
+}
+
+.bubble:nth-child(2) {
+  width: 50px;
+  height: 30px;
+  transform: translateX(150px) translateY(15px);
+}
+.bubble:nth-child(3) {
+  width: 30px;
+  height: 20px;
+  transform: translateX(130px) translateY(15px);
+}
