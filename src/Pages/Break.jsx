@@ -44,7 +44,7 @@ export default function Break() {
       </BreakCard>   
       <section className='video-container'>
         <video muted autoPlay loop alt="Barn som gungar från ett träd med natur i bakgrunden">
-          <source src={bgVideo1} />The video is not supported in your browser
+          <source src="https://www.pexels.com/sv-se/video/natur-spelar-park-trad-8083516/" />The video is not supported in your browser
         </video>
       </section>
       <section className='page-content card start'>
