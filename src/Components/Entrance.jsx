@@ -42,18 +42,18 @@ export default function Entrance() {
         <motion.div 
           className='bubble'
           animate={{opacity: 1}} 
-          transition={{ delay: 5.3}} >
+          transition={{ delay: 3.8}} >
           <p>Redo för en åktur?</p>
         </motion.div>
         <motion.div 
           className='bubble'
           animate={{opacity: 1}} 
-          transition={{ delay: 5.15}}>
+          transition={{ delay: 3.65}}>
         </motion.div>
         <motion.div 
           className='bubble'
           animate={{opacity: 1}} 
-          transition={{ delay: 5}} >
+          transition={{ delay: 3.5}} >
         </motion.div>
         <motion.img 
           className='clown' 
