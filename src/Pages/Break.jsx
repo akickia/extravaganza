@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import H1Animation from '../Components/H1Animation'
 import BreakCard from '../Components/BreakCard'
-import bgVideo from '../assets/videos/food2.mp4'
+import bgVideo from '../assets/videos/food.mp4'
 import bgVideo1 from '../assets/videos/relax.mp4'
 
 export default function Break() {
