@@ -23,7 +23,7 @@ export default function News() {
         <p>Njut av våra enastående kvällsshower under den gnistrande stjärnhimlen! Våra shower har fått en ny dimension när de framförs under nattens täcke. Följ med på en resa genom fantasiens värld, där ljus, ljud och magi förenas till en oförglömlig upplevelse. Missa inte detta spektakulära äventyr som får stjärnorna själva att dansa!</p>
       </section>
         <video muted autoPlay loop>
-          <source src="../public/videos/happy.mp4" />The video is not supported in your browser
+          <source src="./happy.mp4" />The video is not supported in your browser
         </video>
       <section className='page-content card start'>
         <h2>Sommarfestival: Ett Hav av Kul!!</h2>
