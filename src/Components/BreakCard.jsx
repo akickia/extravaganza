@@ -27,7 +27,6 @@ useEffect(() => {
   const screenHeight = window.innerHeight;
   const yOffset = -200
   const middleOfScreen = userScrollPosition + screenHeight / 4 + yOffset;
-  console.log(middleOfScreen)
   const innerOverlayEl = document.querySelector(".food-overlay")
   innerOverlayEl.style.top = `${middleOfScreen}px`;
   }

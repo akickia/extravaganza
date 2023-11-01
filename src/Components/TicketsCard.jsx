@@ -92,7 +92,6 @@ useEffect(() => {
     const screenHeight = window.innerHeight;
     const yOffset = -700
     const middleOfScreen = userScrollPosition + screenHeight / 4 + yOffset;
-    console.log(middleOfScreen)
     const innerOverlayEl = document.querySelector(".inner-overlay")
     innerOverlayEl.style.top = `${middleOfScreen}px`;
   }

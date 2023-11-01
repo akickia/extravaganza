@@ -59,7 +59,7 @@ export default function Entrance() {
           className='clown' 
           initial={{ scale: 0 }} 
           animate={{ scale: 1}} 
-          transition={{ duration: 1, delay: 4 }} 
+          transition={{ duration: 1, delay: 3 }} 
           src={clown}
           alt="färgglad clown som hälsar välkommen">  
         </motion.img>
