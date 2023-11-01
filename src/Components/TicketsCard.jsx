@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { ReactSVG } from "react-svg"
 import { AnimatePresence, motion } from "framer-motion"
+import ticketSVG from '../assets/img/ticket.svg'
+import clownSVG from '../assets/img/clown.svg'
 
 
 export default function TicketsCard({name, info, price, desc}) {
@@ -49,7 +51,7 @@ export default function TicketsCard({name, info, price, desc}) {
         <h2>Tack för ditt köp av {nrOfTickets}st {name}</h2>
         <section>
           <ReactSVG 
-            src="./src/assets/img/clown.svg" 
+            src={clownSVG} 
             className="ticket-svg"
             alt="Colorful happy clown">  
           </ReactSVG>
@@ -88,7 +90,7 @@ useEffect(() => {
   if (showOverlay || showConfirmation) {
     const userScrollPosition = window.scrollY || window.scrollY;
     const screenHeight = window.innerHeight;
-    const yOffset = -500
+    const yOffset = -700
     const middleOfScreen = userScrollPosition + screenHeight / 4 + yOffset;
     console.log(middleOfScreen)
     const innerOverlayEl = document.querySelector(".inner-overlay")
@@ -105,8 +107,8 @@ useEffect(() => {
         <p>{desc}</p>
         <section className="buy-container">
           <div className="svg-container">
-            <ReactSVG src="./src/assets/img/ticket.svg" className="ticket-svg"></ReactSVG>
-            <ReactSVG src="./src/assets/img/ticket.svg" className="ticket-svg"></ReactSVG>
+            <ReactSVG src={ticketSVG} className="ticket-svg"></ReactSVG>
+            <ReactSVG src={ticketSVG} className="ticket-svg"></ReactSVG>
           </div>
           <p>{price} kr</p>
           <button onClick={() => setShowOverlay(true)}>Köp biljett</button>
