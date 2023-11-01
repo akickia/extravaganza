@@ -24,9 +24,11 @@ export default function Rides() {
         <h2>SkyRush Berg- och Dalbana - En Hastig Resa Genom Äventyret!</h2>
         <p>Upplev en hisnande färd på vår SkyRush berg- och dalbana! Gör dig redo för snabba kurvor, branta nedförsbackar och virvlande loopar. Den här banan tar adrenalinkicken till en ny nivå och är perfekt för dem som söker en riktig utmaning.</p>
       </section>
-      <video muted autoPlay loop>
-        <source src={bgVideo2} />The video is not supported in your browser
-      </video>
+      <section className='video-container'>
+        <video muted autoPlay loop>
+          <source src={bgVideo2} />The video is not supported in your browser
+        </video>
+      </section>
       <section className='page-content card start'>
         <h2>Pariserhjulet - En Romantisk Vy över Parken!</h2>
         <p>Ta en lugn åktur i vårt Pariserhjul och upplev en romantisk vy över Extravaganza. Se solnedgången över parken eller njut av den gnistrande stjärnhimlen på kvällen. Det här är den perfekta aktiviteten för avkoppling och romantik.</p>

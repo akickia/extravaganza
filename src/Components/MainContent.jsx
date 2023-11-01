@@ -17,9 +17,11 @@ export default function MainContent() {
             text={"Kulinariska Upplevelser och Plats för Återhämtning! Smaka på våra läckra rätter från världens alla hörn och hitta din favoritrestaurang bland Extravaganzas många matställen. Och när det är dags att vila benen, leta upp våra sköna platser för avkoppling. Oavsett om du söker en smakupplevelse eller en lugn plats för återhämtning, vi har något för alla smaker och behov."} link={'/break'}>
           </Card>
         </section>
-        <video muted autoPlay loop>
-          <source src={bgVideo} />The video is not supported in your browser
-        </video>
+        <section className='video-container'>
+          <video muted autoPlay loop>
+            <source src={bgVideo} />The video is not supported in your browser
+          </video>
+        </section>
         <section className='flex-container page-content'>
           <Card 
             className={"card"} 

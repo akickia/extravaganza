@@ -17,9 +17,11 @@ export default function Break() {
       <section className='page-intro page-content'>
         <p>Smaka på våra läckra rätter från världens alla hörn och hitta din favoritrestaurang bland Extravaganzas många matställen. Och när det är dags att vila benen, leta upp våra sköna platser för avkoppling. Oavsett om du söker en smakupplevelse eller en lugn plats för återhämtning, vi har något för alla smaker och behov.</p>
       </section>
-      <video className='video-noMrg' muted autoPlay loop>
-        <source src={bgVideo} />The video is not supported in your browser
-      </video>
+      <section className='video-container'>
+        <video className='video-noMrg' muted autoPlay loop>
+          <source src={bgVideo} />The video is not supported in your browser
+        </video>
+      </section>
       <BreakCard 
         classname={"page-content card start"} 
         title={'Gastronomisk Glädje'} 
@@ -40,7 +42,11 @@ export default function Break() {
         title={'Söta Frestanden'} 
         info={"För alla sötsugna besökare är Söta Frestanden den ultimata himmelriket! Här hittar du allt från färska bakverk och chokladkreationer till glass i alla smaker du kan tänka dig. Våra konditorer och glassmakare är mästare på att skapa läckra godsaker som kommer att tillfredsställa ditt sötsug. Varför inte unna dig själv en bit av himmelriket och njut av något sött och underbart på Söta Frestanden?"} >
       </BreakCard>   
-      <video muted autoPlay loop><source src={bgVideo1} />The video is not supported in your browser</video>
+      <section className='video-container'>
+        <video muted autoPlay loop>
+          <source src={bgVideo1} />The video is not supported in your browser
+        </video>
+      </section>
       <section className='page-content card start'>
         <h2>Plats för Återhämtning</h2>
         <p>Efter en dag full av spänning är det viktigt att hitta en plats för återhämtning. Våra noga utvalda områden för avkoppling är perfekta för att vila benen och samla energi. Slå dig ner i en skuggig vrå eller vid dammen, lyssna på fåglarnas sång och känn lugnet sänka sig över dig. Här kan du samla intryck och njuta av den rogivande atmosfären innan du ger dig iväg på nästa äventyr.</p>

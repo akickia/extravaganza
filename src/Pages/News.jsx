@@ -22,9 +22,11 @@ export default function News() {
         <h2>Magiska Shower Under Stjärnorna!</h2>
         <p>Njut av våra enastående kvällsshower under den gnistrande stjärnhimlen! Våra shower har fått en ny dimension när de framförs under nattens täcke. Följ med på en resa genom fantasiens värld, där ljus, ljud och magi förenas till en oförglömlig upplevelse. Missa inte detta spektakulära äventyr som får stjärnorna själva att dansa!</p>
       </section>
+      <section className='video-container'>  
         <video muted autoPlay loop>
           <source src={bgVideo} />The video is not supported in your browser
         </video>
+      </section>
       <section className='page-content card start'>
         <h2>Sommarfestival: Ett Hav av Kul!!</h2>
         <p>Extravaganza är redo att välkomna sommaren med en fantastisk festival! Upplev en färgglad värld av karuseller, god mat och skratt. Våra specialerbjudanden och aktiviteter kommer att göra sommaren minnesvärd för hela familjen. Ta med dig dina nära och kära och låt sommaren börja med ett leende på Extravaganza!!</p>
