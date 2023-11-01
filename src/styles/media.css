@@ -9,6 +9,9 @@
   .page-container {
     padding: 1rem
   }
+  .video-container {
+    min-height: unset;
+  }
 
   /*Card*/
   .card-standard {
