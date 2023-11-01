@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import H1Animation from '../Components/H1Animation'
 import BreakCard from '../Components/BreakCard'
-import bgVideo from '../assets/videos/food.mp4'
+import bgVideo from '../assets/videos/food2.mp4'
 import bgVideo1 from '../assets/videos/relax.mp4'
 
 export default function Break() {
@@ -44,7 +44,7 @@ export default function Break() {
       </BreakCard>   
       <section className='video-container'>
         <video muted autoPlay loop alt="Barn som gungar från ett träd med natur i bakgrunden">
-          <source src="https://www.pexels.com/sv-se/video/natur-spelar-park-trad-8083516/" />The video is not supported in your browser
+          <source src={bgVideo1} />The video is not supported in your browser
         </video>
       </section>
       <section className='page-content card start'>
