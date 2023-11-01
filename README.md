@@ -37,7 +37,7 @@ CSS transitions och keyframes
 - Främst på knappar och länkar via hover. Keyframe även på bild på attraktionssidan. 
 
 **6. Presentera hur du har arbetat med ett av JS-biblioteken för att skapa interaktiva animationer**
-- Har använt framer motion för meny, overlays samt animationerna i hero. 
+- Har använt framer motion för meny, overlays, h1 samt animationerna i hero. 
 
 **7. Berätta hur du har tänkt kring UX-design av din sida**
 - Se fråga 2

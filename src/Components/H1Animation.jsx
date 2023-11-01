@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 
 export default function H1Animation({text}) {
+  //Animation for heading
   const defaultAnimations = {
     hidden: {
       opacity: 0,

@@ -19,21 +19,21 @@ export default function Entrance() {
         <motion.img 
           className="swing" 
           src={swing} 
-          alt='silouette of large swing'
+          alt='siluett av stor gunga'
           initial={{y: -1000}}
           animate={{y: 0, scaleY:2}}
           transition={{duration: .5, delay: 1}}/>
         <motion.img 
           className='rollercoaster' 
           src={roller} 
-          alt='silouette of roller coaster ride'
+          alt='siluett av bern-och-dalbana'
           initial={{scaleY: 0}}
           animate={{scaleY:2.4, scaleX:2.4, y: 250 }}
           transition={{duration: .5, delay: 2.5}}/>
         <motion.img 
           className='wheel' 
           src={wheel} 
-          alt='silouette of ferris wheel'
+          alt='siluette av pariserhjul'
           initial={{x: 1000}}
           animate={{x: 0, scale:1.8, y: 45 }}
           transition={{duration: .5, delay: 1.5}}/>
@@ -60,7 +60,8 @@ export default function Entrance() {
           initial={{ scale: 0 }} 
           animate={{ scale: 1}} 
           transition={{ duration: 1, delay: 4 }} 
-          src={clown}>  
+          src={clown}
+          alt="färgglad clown som hälsar välkommen">  
         </motion.img>
       </section>
     </article>

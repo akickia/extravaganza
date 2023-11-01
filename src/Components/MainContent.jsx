@@ -18,7 +18,7 @@ export default function MainContent() {
           </Card>
         </section>
         <section className='video-container'>
-          <video muted autoPlay loop>
+          <video muted autoPlay loop alt="vy över nöjesparken nattetid">
             <source src={bgVideo} />The video is not supported in your browser
           </video>
         </section>

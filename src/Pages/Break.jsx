@@ -18,7 +18,7 @@ export default function Break() {
         <p>Smaka på våra läckra rätter från världens alla hörn och hitta din favoritrestaurang bland Extravaganzas många matställen. Och när det är dags att vila benen, leta upp våra sköna platser för avkoppling. Oavsett om du söker en smakupplevelse eller en lugn plats för återhämtning, vi har något för alla smaker och behov.</p>
       </section>
       <section className='video-container'>
-        <video className='video-noMrg' muted autoPlay loop>
+        <video className='video-noMrg' muted autoPlay loop alt="Närbild på pannkakor med sirap">
           <source src={bgVideo} />The video is not supported in your browser
         </video>
       </section>
@@ -43,7 +43,7 @@ export default function Break() {
         info={"För alla sötsugna besökare är Söta Frestanden den ultimata himmelriket! Här hittar du allt från färska bakverk och chokladkreationer till glass i alla smaker du kan tänka dig. Våra konditorer och glassmakare är mästare på att skapa läckra godsaker som kommer att tillfredsställa ditt sötsug. Varför inte unna dig själv en bit av himmelriket och njut av något sött och underbart på Söta Frestanden?"} >
       </BreakCard>   
       <section className='video-container'>
-        <video muted autoPlay loop>
+        <video muted autoPlay loop alt="Barn som gungar från ett träd med natur i bakgrunden">
           <source src={bgVideo1} />The video is not supported in your browser
         </video>
       </section>

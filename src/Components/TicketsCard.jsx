@@ -53,7 +53,7 @@ export default function TicketsCard({name, info, price, desc}) {
           <ReactSVG 
             src={clownSVG} 
             className="ticket-svg"
-            alt="Colorful happy clown">  
+            alt="Färgglad clown">  
           </ReactSVG>
           <p>Biljetterna hittar du på mailen</p>
           <p><small>Ordernr: 542WEXF5424A</small></p>
@@ -107,8 +107,8 @@ useEffect(() => {
         <p>{desc}</p>
         <section className="buy-container">
           <div className="svg-container">
-            <ReactSVG src={ticketSVG} className="ticket-svg"></ReactSVG>
-            <ReactSVG src={ticketSVG} className="ticket-svg"></ReactSVG>
+            <ReactSVG src={ticketSVG} className="ticket-svg" alt="biljett"></ReactSVG>
+            <ReactSVG src={ticketSVG} className="ticket-svg" alt="biljett"></ReactSVG>
           </div>
           <p>{price} kr</p>
           <button onClick={() => setShowOverlay(true)}>Köp biljett</button>

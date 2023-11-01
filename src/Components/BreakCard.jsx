@@ -14,7 +14,7 @@ export default function BreakCard({classname, title, info}) {
       exit={{x: 2000, y: 0}} 
       className="inner-overlay food-overlay">
       <h2>{title}</h2>
-      <img src={foodImg}></img>
+      <img src={foodImg} alt='tecknade kockar'></img>
       <p>{info}</p>
       <button onClick={() => setShowOverlay(false)}>Got it!</button>
     </motion.section>

@@ -23,7 +23,7 @@ export default function News() {
         <p>Njut av våra enastående kvällsshower under den gnistrande stjärnhimlen! Våra shower har fått en ny dimension när de framförs under nattens täcke. Följ med på en resa genom fantasiens värld, där ljus, ljud och magi förenas till en oförglömlig upplevelse. Missa inte detta spektakulära äventyr som får stjärnorna själva att dansa!</p>
       </section>
       <section className='video-container'>  
-        <video muted autoPlay loop>
+        <video muted autoPlay loop alt="Leende kvinna med regnbågsfärgad lugg">
           <source src={bgVideo} />The video is not supported in your browser
         </video>
       </section>

@@ -25,7 +25,7 @@ export default function Rides() {
         <p>Upplev en hisnande färd på vår SkyRush berg- och dalbana! Gör dig redo för snabba kurvor, branta nedförsbackar och virvlande loopar. Den här banan tar adrenalinkicken till en ny nivå och är perfekt för dem som söker en riktig utmaning.</p>
       </section>
       <section className='video-container'>
-        <video muted autoPlay loop>
+        <video muted autoPlay loop alt={"Inuti en berg-och-dalbanevagn i rörelse"}>
           <source src={bgVideo2} />The video is not supported in your browser
         </video>
       </section>
@@ -36,7 +36,7 @@ export default function Rides() {
       <section className='page-content card end'>
         <h2>Turbo Twist - Snurra In i Glädjen!</h2>
         <p>Gör dig redo för en snurrig upplevelse på vår Turbo Twist! Den här attraktionen tar dig på en vild färd med snabba varv och virvlande rörelser. En rolig och yrväckande attraktion som kommer få ditt hjärta att slå fortare.</p>
-        <img className="img-opac" src={twist}></img>
+        <img className="img-opac" src={twist} alt={"Attraktionen Turbo Twist"}></img>
       </section>
       <section className='page-content page-outro middle'>
         <h2>Oavsett vilken attraktion du väljer är spänningen garanterad på Extravaganza! Planera ditt besök idag och upplev en dag full av äventyr, skratt och fantastiska minnen.</h2>
