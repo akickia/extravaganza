@@ -1,6 +1,13 @@
+import { useEffect } from "react";
 import H1Animation from "../Components/H1Animation";
 
 export default function About() {
+  //Scroll to top when mounted
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  //About page
   return (
     <main className="page-container">
       <H1Animation text={"Om Extravaganza"} />
@@ -28,7 +35,13 @@ export default function About() {
         <p>Vi ser fram emot att välkomna dig till Extravaganza för en dag fylld med glädje, äventyr och skratt. Oavsett om du är här med din familj, vänner eller kollegor, kommer du att upptäcka en värld av spännande möjligheter här hos oss. Kom och låt oss skapa minnen tillsammans!
         </p>
       </section>
-      <section className="page-content middle"><h2>Tack för att du väljer Extravaganza som ditt nöjesmål. Vi ser fram emot att ge dig en oförglömlig upplevelse!</h2>
+      <section className='page-content card end'>
+        <h2>Kontaktuppgifter:</h2>
+        <p>Tel: 070 - 100 00 00</p>
+        <p>Adress: Vaganzgatan 23 <br></br>100 00 Staden</p>
+        <p>Epost: extravaganza@extravaganza.se</p>
+      </section>
+      <section className="page-content page-outro middle"><h2>Tack för att du väljer Extravaganza som ditt nöjesmål. Vi ser fram emot att ge dig en oförglömlig upplevelse!</h2>
       </section>
     </main>
   )

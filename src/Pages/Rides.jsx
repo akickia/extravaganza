@@ -1,8 +1,15 @@
+import { useEffect } from 'react'
 import twist from '../assets/img/twist.jpg'
 import bgVideo2 from '../assets/videos/roller.mp4'
 import H1Animation from '../Components/H1Animation'
 
 export default function Rides() {
+  //Scroll to top when mounted
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  //Rides page
   return (
     <main className="page-container">
       <H1Animation text={"Attraktioner"} />
@@ -29,7 +36,7 @@ export default function Rides() {
         <p>Gör dig redo för en snurrig upplevelse på vår Turbo Twist! Den här attraktionen tar dig på en vild färd med snabba varv och virvlande rörelser. En rolig och yrväckande attraktion som kommer få ditt hjärta att slå fortare.</p>
         <img className="img-opac" src={twist}></img>
       </section>
-      <section className='page-content middle'>
+      <section className='page-content page-outro middle'>
         <h2>Oavsett vilken attraktion du väljer är spänningen garanterad på Extravaganza! Planera ditt besök idag och upplev en dag full av äventyr, skratt och fantastiska minnen.</h2>
       </section>
     </main>

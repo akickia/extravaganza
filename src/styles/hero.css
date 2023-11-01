@@ -5,13 +5,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   position: relative;
   background-color: rgba(0, 0, 0, 0.3);
   overflow-y: hidden;
   overflow-x: hidden;
 }
 
+
+/*Tivoli*/
 .tivoli {
   position: absolute;
   bottom: 0;
@@ -35,6 +36,8 @@
   opacity: .4;
 }
 
+
+/*Figure*/
 .figure {
   position: absolute;
   left: 5%;
@@ -67,6 +70,7 @@
   height: 30px;
   transform: translateX(150px) translateY(15px);
 }
+
 .bubble:nth-child(3) {
   width: 30px;
   height: 20px;

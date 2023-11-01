@@ -26,73 +26,37 @@
 }
 
 /*Ticket overlays*/
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 1rem;
-  right: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  backdrop-filter: blur(6px);
-  z-index: 12;
-}
-
-.inner-overlay {
-  padding: 3rem;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 5px;
-}
-
-.inner-overlay div {
+.tickets-overlay div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
 }
 
-.inner-overlay div > * {
-  margin: .25rem;
+.tickets-overlay .box > * {
+  margin: .5rem;
   border: 1px solid gray;
   padding: .75rem 2rem;
   font-size: 1.25rem;
+  background-color: #ffffff;
 }
 
-.inner-overlay button {
-  padding: .75rem 2rem;
-  background-color: transparent;
-  border-radius: 5px;
-  color: #000000
+.tickets-overlay button:hover {
+  animation: glimpse .75s ease infinite
 }
 
-.inner-overlay button:hover {
-animation: glimpse .5s ease-in-out infinite
-}
 
-/*Overlay button hover*/
 @keyframes glimpse {
   0% {
     background-color: #ffffff;
     transform: scale(1);
   } 
-  33%{
-    background: linear-gradient(-50deg, rgba(255,255,255,0.46262254901960786) 46%, rgba(255,255,0,1) 85%);
-  }
   50% {
-    background: linear-gradient(-50deg, rgba(255,255,255,0.46262254901960786) 32%, rgba(255,255,0,1) 70%);
-  }
-  66% {
-    background: linear-gradient(-50deg, rgba(255,255,255,0.46262254901960786) 5%, rgba(255,255,0,1) 28%);
-    transform: scale(1.05);
-  }
-
-  100% {
     background-color: rgba(255,255,0,1);
+    transform: scale(1.1);
+  } 
+  100% {
+    background-color: #ffffff;
     transform: scale(1);
   }
 }

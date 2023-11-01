@@ -2,6 +2,8 @@
 import './styles/App.css'
 import './styles/hero.css'
 import './styles/tickets.css'
+import './styles/break.css'
+import './styles/overlay.css'
 import './styles/media.css'
 
 //Importing components/pages
@@ -20,6 +22,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 
 function App() {
+  //Open/Close nav
   const [openNav, setOpenNav] = useState(false)
   //Routing
   return (

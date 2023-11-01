@@ -1,4 +1,4 @@
-/* MENU */
+/* Menu position */
 header i, header nav {
   padding: 1rem;
   position: fixed;
@@ -6,10 +6,10 @@ header i, header nav {
 }
 
 header nav {
-  top: 4rem
+  top: 5rem
 }
 
-/*burger icon*/
+/*Burger icon*/
 header i div {
   width: 50px;
   height: 5px;
@@ -24,7 +24,7 @@ header i:hover div {
   background-color: rgba(0, 0, 0, 0.5)
 }
 
-/*menu*/
+/*Open menu*/
 header nav ul li {
   width: 9.375rem;
   text-align: end;

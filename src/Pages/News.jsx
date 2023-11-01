@@ -1,7 +1,14 @@
+import { useEffect } from 'react'
 import H1Animation from '../Components/H1Animation'
 import bgVideo from '../assets/videos/happy.mp4'
 
 export default function News() {
+  //Scroll to top when mounted
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  //News page
   return (
     <main className="page-container">
       <H1Animation text={"Nyheter"}/>
@@ -16,13 +23,13 @@ export default function News() {
         <p>Njut av våra enastående kvällsshower under den gnistrande stjärnhimlen! Våra shower har fått en ny dimension när de framförs under nattens täcke. Följ med på en resa genom fantasiens värld, där ljus, ljud och magi förenas till en oförglömlig upplevelse. Missa inte detta spektakulära äventyr som får stjärnorna själva att dansa!</p>
       </section>
         <video muted autoPlay loop>
-          <source src={bgVideo} />The video is not supported in your browser
+          <source src="../public/videos/happy.mp4" />The video is not supported in your browser
         </video>
       <section className='page-content card start'>
         <h2>Sommarfestival: Ett Hav av Kul!!</h2>
         <p>Extravaganza är redo att välkomna sommaren med en fantastisk festival! Upplev en färgglad värld av karuseller, god mat och skratt. Våra specialerbjudanden och aktiviteter kommer att göra sommaren minnesvärd för hela familjen. Ta med dig dina nära och kära och låt sommaren börja med ett leende på Extravaganza!!</p>
       </section>
-      <section className='page-content middle'>
+      <section className='page-content page-outro middle'>
         <h2>Håll ögonen öppna för fler spännande nyheter och evenemang som kommer snart till Extravaganza. Följ oss på sociala medier och håll dig uppdaterad om alla våra senaste äventyr!</h2>
       </section>
     </main>

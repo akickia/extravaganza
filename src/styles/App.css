@@ -67,6 +67,7 @@ footer {
   color: #0000006a
 }
 
+
 /*General for content*/
 .flex-container {
   display: flex;
@@ -91,6 +92,13 @@ footer {
 .page-intro {
   font-size: 1.7rem;
 }
+
+.page-outro {
+  color: #ffff00ac;
+  font-size: 1rem;
+  padding: 3rem
+}
+
 
 /* Cards */
 .card {
@@ -122,7 +130,7 @@ footer {
 /*Align styling*/
 .middle {
   text-align: center;
-  color: #ffff00ac
+
 }
 
 .start {
@@ -132,12 +140,15 @@ footer {
 
 .end {
   align-items: end;
+  text-align: end;
 }
+
 
 /*Specials*/
 .video-noMrg {
   margin-top: 0;
 }
+
 .img-opac {
   animation: opacityInOut 5s ease-in-out infinite alternate;
   width: 100%;
@@ -151,6 +162,6 @@ footer {
     transform: scale(0.95);
   } to {
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1);
   }
 }

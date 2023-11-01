@@ -1,0 +1,13 @@
+/*Break styling*/
+.food-overlay {
+  max-width: 800px;
+}
+
+.food-overlay * {
+  margin: 2rem
+}
+
+.food-overlay button {
+  padding: 1rem 3rem;
+  background-color: white;
+}
