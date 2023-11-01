@@ -40,6 +40,3 @@ CSS transitions och keyframes
 - Att utforma designen, utan tvekan. Det är inte min starka sida och krävde mycket energi i början. Samtidigt är det förstås en frihet att kunna justera designen vartefter, men att ha en mall att utgå ifrån passar mig bäst. 
 **9. Vilken del är du mest nöjd med? **
 - Jag är mest nöjd med min hero på startsidan, menyn och overlays. Generellt är jag väldigt nöjd över att jag förstått grunderna i hur framer motion används och kan helt klart se användbarheten i att använda bibliotek på detta sätt. 
-
-
-
