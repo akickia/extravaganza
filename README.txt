@@ -1,4 +1,4 @@
-**Project: **
+Project:
 THEME PARK EXTRAVAGANZA
 
 Examination UX/UI fördjupning
